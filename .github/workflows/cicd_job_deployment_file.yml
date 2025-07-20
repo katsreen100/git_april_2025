@@ -27,7 +27,7 @@ jobs:
 
     - name: Run Pytest
       run: |
-        pytest test_table1.py
+        pytest dqe_framework/test_table1.py
 
     - name: Upload Pytest Report
       uses: actions/upload-artifact@v4
